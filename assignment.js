@@ -52,22 +52,6 @@
 
 
 
-// assignment Number 04 Brick Calculator;
-    function tinyFriend(friendName){
-        let smallName = friendName[0];
-        for(let i = 0; i < smallName.length; i++){
-            let element = smallName[i];
-            if(element < smallName.length){
-                smallName = element;
-              }
-        }
-        return smallName;
-    }
-    //get output;
-
-    
-
-
  // assignment Number  04 find the smallest name an array;
     function tinyFriend(friendName) {
         let smallName = '';
@@ -86,5 +70,5 @@
                   return smallName;
                }
             //get output
-            var resultTinyFrien = tinyFriend(['tpasd','tasdffdo', 'twawodfg', 'thadwer','ff',2]);
+            var resultTinyFrien = tinyFriend(['tpasd','tasdffdo', 'twawodfg', 'thad wer','ff',2]);
             console.log(resultTinyFrien);
