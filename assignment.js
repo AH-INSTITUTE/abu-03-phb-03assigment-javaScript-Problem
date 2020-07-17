@@ -57,7 +57,7 @@
         let smallName = '';
             if(friendName.length > 0){
                 for(let i = 0; i < friendName.length; i++){
-                    if(typeof friendName[i] === 'string')//only for String Will take;{
+                    if(typeof friendName[i] === 'string'){//only for String Will take;
                        if(smallName.length == 0){
                         smallName = friendName[i]; continue;
                        } 
@@ -70,5 +70,5 @@
                   return smallName;
                }
             //get output
-            var resultTinyFrien = tinyFriend(['tpasd','tasdffdo', 'twawodfg', 'thad wer','ff',2]);
+            var resultTinyFrien = tinyFriend(['tpasd','tasdffdo',3, 'twawodfg', 'thad wer','ff',2]);
             console.log(resultTinyFrien);
